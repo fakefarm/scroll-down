@@ -1,0 +1,108 @@
+#boxUno {
+  animation: a0_t 4s linear infinite both, a0_f 4s linear infinite both;
+}
+
+@keyframes a0_t {
+  0% {
+    transform: translate(372.5px, 365.5px) rotate(0deg)
+      translate(-191.5px, -191.5px);
+  }
+  25% {
+    transform: translate(685.5px, 462.5px) rotate(0deg)
+      translate(-191.5px, -191.5px);
+  }
+  75% {
+    transform: translate(1311.5px, 656.5px) rotate(360deg)
+      translate(-191.5px, -191.5px);
+  }
+  100% {
+    transform: translate(1624.5px, 753.5px) rotate(360deg)
+      translate(-191.5px, -191.5px);
+  }
+}
+@keyframes a0_f {
+  0% {
+    fill: #bb1212;
+  }
+  12.5% {
+    fill: #bb1212;
+  }
+  77.5% {
+    fill: #6017db;
+  }
+  100% {
+    fill: #6017db;
+  }
+}
+
+@keyframes a0_s {
+  0% {
+    stroke: #6203ff;
+  }
+  66.0714% {
+    stroke: #462399;
+  }
+  71.4286% {
+    stroke: #6203ff;
+  }
+  78.5714% {
+    stroke: none;
+  }
+  100% {
+    stroke: none;
+  }
+}
+@keyframes a0_f {
+  0% {
+    fill: #ffffff;
+  }
+  46.4286% {
+    fill: #ffffff;
+  }
+  89.2857% {
+    fill: #ec28d2;
+  }
+  100% {
+    fill: #ec28d2;
+  }
+}
+@keyframes a0_do {
+  0% {
+    stroke-dashoffset: 1331.25px;
+  }
+  71.4286% {
+    stroke-dashoffset: 0px;
+  }
+  100% {
+    stroke-dashoffset: 0px;
+  }
+}
+
+body {
+  height: 10000px;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  background: yellow;
+  position: fixed;
+  border-radius: 180px;
+}
+
+.box2 {
+  height: 100px;
+  width: 100px;
+  background: black;
+  position: fixed;
+  color: white;
+  padding: 20px;
+}
+
+.h1 {
+  position: fixed;
+  top: 100px;
+  /* left: 100px; */
+  margin: 0;
+  padding: 0;
+}
